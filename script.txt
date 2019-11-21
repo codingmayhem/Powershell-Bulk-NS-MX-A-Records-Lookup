@@ -1,0 +1,5 @@
+Get-Content <path of domain list> | Resolve-DNSName -Type <Type of lookup (NS,A,MX)> -DnsOnly | Out-File -FilePath <path of where you want the results saved>
+
+So, our command will look like this:
+
+Get-Content C:\Users\ramon\Desktop\domain-list.txt | Resolve-DNSName -Type NS -DnsOnly | Out-File -FilePath C:\Users\ramon\Desktop\result.txt
