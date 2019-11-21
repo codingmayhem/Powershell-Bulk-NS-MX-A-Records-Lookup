@@ -1,7 +1,7 @@
 <h1>Powershell bulk domain lookup script</h1>
 
 
-Get-Content "Source of text file" | Resolve-DNSName -Type NS -DnsOnly | Out-File -FilePath "Where to save the results"
+Get-Content <path of domain list> | Resolve-DNSName -Type <Type of lookup (NS,A,MX)> -DnsOnly | Out-File -FilePath <path of where you want the results saved>
 
 Ex. 
 
