@@ -2,4 +2,4 @@ Get-Content <path of domain list> | Resolve-DNSName -Type <Type of lookup (NS,A,
 
 So, our command will look like this:
 
-Get-Content C:\Users\ramon\Desktop\domain-list.txt | Resolve-DNSName -Type NS -DnsOnly | Out-File -FilePath C:\Users\ramon\Desktop\result.txt
+Get-Content C:\Users\tony\Desktop\domain-list.txt | Resolve-DNSName -Type NS -DnsOnly | Out-File -FilePath C:\Users\tony\Desktop\result.txt
