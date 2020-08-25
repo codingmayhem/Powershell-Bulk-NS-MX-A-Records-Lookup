@@ -7,4 +7,4 @@ The script will create a results file that will contain the domain name and the 
 
 result file eg. 
 
-ramons.work       NS      2853  Answer  ns6456-edi.cloudflare.com
+example.com       NS      2853  Answer  ns1.example.com
